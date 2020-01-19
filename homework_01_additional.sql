@@ -61,16 +61,16 @@ ORDER BY char_length(b.title) DESC
 LIMIT 1;
 
 
--- Select average number of books an author has written, including authors without any books
-SELECT a.name, a.surname, CASE WHEN AVG(b.id) IS NULL THEN 0 ELSE AVG(b.id) END as average_book_count
+-- Select average number of pages per book an author has written, including authors without any books
+SELECT a.name, a.surname, CASE WHEN AVG(b.total_pages) IS NULL THEN 0 ELSE AVG(b.total_pages) END as average_book_count
 FROM authors a
 	LEFT JOIN books b on a.id = b.author_id
 GROUP BY a.id;
 
 
--- Select average number of books an author has written, including authors without any books
+-- Select average number of pages per book an author has written, including authors without any books
 -- Same query as above, but using IFNULL function
-SELECT a.name, a.surname, IFNULL(AVG(b.id), 0) as average_book_count
+SELECT a.name, a.surname, IFNULL(AVG(b.total_pages), 0) as average_book_count
 FROM authors a
 	LEFT JOIN books b on a.id = b.author_id
 GROUP BY a.id;
