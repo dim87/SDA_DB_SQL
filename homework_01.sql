@@ -51,7 +51,7 @@ INSERT INTO books (isbn, title, date_published, price, total_pages, rating, auth
 VALUES ("ISBN122223", "Martin Eden", DATE("1909-01-01"), 5.50, 100, null, 1),
 	   ("ISBN122224", "The Old Man and the Sea", DATE("1952-01-01"), 7.50, 200, null, 2),
 	   ("ISBN122225", "A Farewell to Arms", DATE("1929-01-01"), 3.60, 300, null, 2),
-	   ("ISBN122226", "For Whom the Bells Tolls", DATE("1940-01-01"), 250, 4.8, null, 2),
+	   ("ISBN122226", "For Whom the Bells Tolls", DATE("1940-01-01"), 4.8, 250, null, 2),
 	   ("ISBN122227", "The Adventures of Tom Sawyer", DATE("1876-01-01"), 3.25, 350, 4.3, 3),
 	   ("ISBN122228", "The Adventures of Huckleberry Finn", DATE("1884-01-01"), 3.20, 200, 3.20, 3);
 
