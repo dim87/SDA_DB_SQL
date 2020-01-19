@@ -9,8 +9,8 @@
 - think if a field is mandatory or optional (not null) 
 - insert some data into tables so you can test select queries later on 
 - save all your queries into separate file
+- send me the resulting sql file with all queries that you have used to create tables and select data (via Slack)
 - if you have any questions- don't be shy, write me a message in Slack, I will be happy to help :)
-- send me the resulting sql file with all queries that you have used to create tables and select data via slack
 - Pleeeeeease don't send me this file on Saturday at 03:00 in the morning as I won't have time to review it
 
 ### Just so we could start on the same page
@@ -58,6 +58,7 @@ You can copy-paste this code into new SQL editor tab and run it to create all ta
 - commenting each query, so it would be easier to understand what it does
 - correct ON DELETE CASCADE(to delete all related records by foreign key) and ON DELETE RESTRICT(to prevent delete if related records exist) options for foreign keys
 - creating unique indexes for fields that must be unique (i.e.: isbn number is unique for a book), you can Google this topic, as we will cover it next week :)
+- creating more tables that might be useful for library
 - interesting selects
 
 
