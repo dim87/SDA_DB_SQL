@@ -1,7 +1,7 @@
 # Homework 01
 ## Continue with library database development
 
-### Some things to consider, while doing homework
+### Some things to consider, while doing homework 
 - create a new database `CREATE DATABASE SDA_library_homework;`
 - start your work with doing a ```USE SDA_library_homework;``` query to select active database
 - you can re-use tables `books` and `authors` that were created during the lecture (SQL provided below)
@@ -11,6 +11,7 @@
 - save all your queries into separate file
 - send me the resulting sql file with all queries that you have used to create tables and select data (via Slack)
 - if you have any questions- don't be shy, write me a message in Slack, I will be happy to help :)
+- **THE** most important thing in whole homework- don't get frustrated if you can't get something to work
 - Pleeeeeease don't send me this file on Saturday at 03:00 in the morning as I won't have time to review it
 
 ### Just so we could start on the same page
@@ -34,7 +35,7 @@ You can copy-paste this code into new SQL editor tab and run it to create all ta
     - issue_date (date when copy of a book was given to reader)
     - return_date (date when this copy of book must be returned)
 
-- reader_book_rating (reader rates a book)
+- reader_book_ratings (reader rates a book)
     - reader_id
     - book_id
     - rating
@@ -47,7 +48,7 @@ You can copy-paste this code into new SQL editor tab and run it to create all ta
 ### Write some SQL queries
 - select total count of copies in library
 - select reader(name and surname) who has done the most book ratings
-- select average ratings per book from `reader_book_rating` table, result should have two columns (book_id, average_rating)
+- select average ratings per book from `reader_book_ratings` table, result should have two columns (book_id, average_rating)
 - select all readers that have at least one non-returned copy of a book
 - select count of copies per book(result should have `book_id`, `book_title`, `count_of_copies` columns)
 - select readers and books that they have taken (result should have `reader_name`, `reader_surname`, `book_title`)
