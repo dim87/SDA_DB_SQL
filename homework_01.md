@@ -19,6 +19,8 @@ You can copy-paste this code into new SQL editor tab and run it to create all ta
 
 [Books & Authors SQL](homework_01.sql)
 
+[Additional SQL that might be helpful](homework_01_additional.sql)
+
 ### Create new tables
 - copies (individual books that are in stock of library)
     - book_id
