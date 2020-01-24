@@ -22,7 +22,7 @@ A user must be able to create an event(like a meeting or a call) for a group of 
 A report is developed to see business of people.
  
 ---
-###Time tracking
+### Time tracking
 An application is developed to help registering time spent at work.
 Employer user must be able to create shifts for employees, and employees must be able to log worked hours.
 A report with monthly worked hours for each user must be developed.
